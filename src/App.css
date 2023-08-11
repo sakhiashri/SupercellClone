@@ -1,0 +1,132 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url('https://supercell.com/_next/static/media/frontpage_hero.cfb8e642.webp') no-repeat center center / cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar-logo {
+  height: 30px;
+  
+}
+
+.text {
+  justify-content: space-between;
+  align-items:  center;
+  position: absolute; /* Mengatur posisi absolut untuk teks */
+  top: 100px; /* Jarak dari bagian atas container */
+  left: 480px; /* Jarak dari bagian kiri container */
+  z-index: 1; /* Mengatur urutan tampilan (semakin besar, semakin atas) */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+
+}
+
+/* .navbar {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+
+
+.navbar .navbar-nav a {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1, 3rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: red;
+} */
+
+a{
+  text-decoration: none;
+}
+
+.poster{
+  
+  background-size: cover;
+  
+}
+
+.body .i{
+  
+  background-size: cover;
+  
+  height: auto;
+}
+
+.text-header{
+  font-family: arial;
+  font-size: 14px;
+}
+
+.gambar{
+  display: flex;
+}
+
+.image{
+  position: top;
+  width: 500px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+/* .icon nav{
+
+  float: left;
+  width: 26px;
+} */
+
+.icon-nav-cell{
+  display: flex;
+  width: 26px;  
+  
+}
+
+
+
+
